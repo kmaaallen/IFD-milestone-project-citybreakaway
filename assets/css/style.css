@@ -1,3 +1,22 @@
+body{
+    margin:0px;
+}
+
 .container{
-    display: flex column;
+    display: flex;
+    justify-content:center;
+}
+
+.title-banner{
+    background-image: url("/assets/images/balloons.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size:100px;
+    text-align: center;
+    color:white;
+    padding-top:200px;
+    padding-bottom:200px;
 }
